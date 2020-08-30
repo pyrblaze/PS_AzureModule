@@ -42,7 +42,5 @@ function Get-AzureKeyVaultCertificatePassword{
 	Set-Location Cert:\CurrentUser\My
 
 	Write-Verbose "Installing Certificate into My Cert store."
-	Import-PfxCertificate -FilePath $pfxPath -Password $securePassword	
-	
-	
+	Import-PfxCertificate -FilePath $pfxPath -Password $securePassword		
 }
