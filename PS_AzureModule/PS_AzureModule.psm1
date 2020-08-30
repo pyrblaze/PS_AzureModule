@@ -2,7 +2,7 @@
 .SYNOPSIS
     Connects to Azure Key Vault entries for Certificate and Secret Download
 .DESCRIPTION
-    Utilizes Connect-AzAccount (Az.Accounts) to connect to the Azure Key Vault entries for downloading certificate pfx file, copying separate vault for Secret
+    Utilizes Login-AzureRmAccount (AzureRM) to connect to the Azure Key Vault entries for downloading certificate pfx file, copying separate vault for Secret entry
 	Imports certificate into non-Admin keyvault.
 .NOTES
 	Created by Jonathan Underwood
